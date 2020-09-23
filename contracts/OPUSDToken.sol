@@ -1,23 +1,16 @@
-pragma solidity 0.5.4;
+pragma solidity 0.6.7;
 
 import "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol";
-import "openzeppelin-solidity/contracts/token/ERC20/ERC20Detailed.sol";
-import "openzeppelin-solidity/contracts/token/ERC20/ERC20Mintable.sol";
-import "openzeppelin-solidity/contracts/token/ERC20/ERC20Burnable.sol";
 
-contract OPUSDToken is ERC20, ERC20Detailed, ERC20Mintable, ERC20Burnable {
+contract OPUSDToken is ERC20 {
     uint8 public constant DECIMALS = 18;
     uint256 public constant INITIAL_SUPPLY = 10000 * (10 ** uint256(DECIMALS));
 
     /**
      * @dev Constructor that gives msg.sender all of existing tokens.
      */
-    constructor () public ERC20Detailed("OpenPredict USD Token", "OPUSD", DECIMALS) {
+    constructor () public ERC20("OpenPredict USD Token", "OPUSD") {
         mint(msg.sender, INITIAL_SUPPLY);
-    }
-
-    function() external {
-        mint(msg.sender, 1 ether);
     }
 
     function mint(address to, uint256 value) public returns (bool) {

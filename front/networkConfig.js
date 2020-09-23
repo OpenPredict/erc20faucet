@@ -52,7 +52,7 @@ const networkConfig = {
     rpcUrl: 'https://goerli.infura.io/v3/c7463beadf2144e68646ff049917b716'
   },
   netId42: {
-    verifyingContract: '0xAd8288D102aA2669720701CBcf00F01B54ce7A7D',
+    verifyingContract: '0xB876a52ABD933a02426C31d8231e9B9352864214',
     rpcCallRetryAttempt: 10,
     gasPrice: { fast: 1, low: 1, standard: 1 },
     smartContractPollTime: 15,

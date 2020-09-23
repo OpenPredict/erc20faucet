@@ -12,7 +12,7 @@ You will need some ethers (ETH) to pay for the network transaction fees. See [Te
 
 | Network  | Address |
 | ------------- | ------------- |
-| Kovan  | [0xAd8288D102aA2669720701CBcf00F01B54ce7A7D](https://kovan.etherscan.io/token/0xAd8288D102aA2669720701CBcf00F01B54ce7A7D)  |
+| Kovan  | [0xB876a52ABD933a02426C31d8231e9B9352864214](https://kovan.etherscan.io/token/0xB876a52ABD933a02426C31d8231e9B9352864214)  |
 
 <br />
 
