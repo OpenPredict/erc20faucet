@@ -1,5 +1,5 @@
-const FaucetToken = artifacts.require("FaucetToken");
+const OPUSDToken = artifacts.require("OPUSDToken");
 
 module.exports = function(deployer) {
-  deployer.deploy(FaucetToken)
+  deployer.deploy(OPUSDToken)
 };

@@ -2,7 +2,7 @@
   <div class="columns">
     <div class="column is-two-thirds-tablet is-half-desktop">
       <h1 class="title">
-        Ethereum ERC20 Token Faucet
+        OpenPredict USD Token Faucet (Kovan)
       </h1>
       <h2 class="subtitle">
         Mint tokens to an address
@@ -57,9 +57,7 @@
           >
             Connect
           </button>
-          <a href="https://peppersec.com" target="_blank" class="is-flex">
-            <span class="icon icon-madeby" />
-          </a>
+
         </div>
       </div>
 
@@ -85,7 +83,7 @@
             Token Balance
           </p>
           <p class="title">
-            {{ tokenBalance }} FAU
+            {{ tokenBalance }} OPUSD
           </p>
         </div>
         <div class="column is-12">
