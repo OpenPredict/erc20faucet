@@ -34,11 +34,11 @@ export default {
     htmlAttrs: {
       lang: 'en'
     },
-    title: 'ERC20 Token Faucet',
+    title: 'OpenPredict USD Token Faucet',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'An ERC20 token faucet on the Ethereum mainnet, and Ropsten, Kovan, Rinkeby and Görli testnets.' },
+      { hid: 'description', name: 'description', content: 'OpenPredict USD (OPUSD) Token Faucet on the Kovan testnets' },
       {
         hid: 'og:title',
         property: 'og:title',

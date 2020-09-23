@@ -1,4 +1,4 @@
-# ERC20 Token Faucet
+# OpenPredict USD (OPUSD) Token Faucet
 
 An OpenPredict USD (OPUSD) faucet on Kovan testnet.
 
